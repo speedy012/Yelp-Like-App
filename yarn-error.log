@@ -1,0 +1,57 @@
+Arguments: 
+  /usr/local/Cellar/node/13.7.0/bin/node /usr/local/bin/yarnpkg install
+
+PATH: 
+  /Library/Frameworks/Python.framework/Versions/3.8/bin:/Users/Herm/.rvm/gems/ruby-2.6.1/bin:/Users/Herm/.rvm/gems/ruby-2.6.1@global/bin:/Users/Herm/.rvm/rubies/ruby-2.6.1/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/Herm/.rvm/bin
+
+Yarn version: 
+  1.21.1
+
+Node version: 
+  13.7.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: write EADDRNOTAVAIL
+      at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:92:16)
+      at handleWriteReq (internal/stream_base_commons.js:58:21)
+      at writeGeneric (internal/stream_base_commons.js:143:15)
+      at TLSSocket.Socket._writeGeneric (net.js:780:11)
+      at TLSSocket.Socket._write (net.js:792:8)
+      at doWrite (_stream_writable.js:454:12)
+      at clearBuffer (_stream_writable.js:582:7)
+      at TLSSocket.Writable.uncork (_stream_writable.js:347:7)
+      at ClientRequest._flushOutput (_http_outgoing.js:877:10)
+      at ClientRequest._flush (_http_outgoing.js:846:22)
+
+npm manifest: 
+  {
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "expo": "~36.0.0",
+      "react": "~16.9.0",
+      "react-dom": "~16.9.0",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-36.0.0.tar.gz",
+      "react-native-web": "~0.11.7"
+    },
+    "devDependencies": {
+      "babel-preset-expo": "~8.0.0",
+      "@babel/core": "^7.0.0"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
